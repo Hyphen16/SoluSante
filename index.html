@@ -1,74 +1,99 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santé et Bien-Être</title>
+    <title>Solusante - Santé et Bien-être</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- HEADER -->
     <header>
-        <h1>Santé et Bien-Être</h1>
+        <div class="banner">
+            <h1>Solusante</h1>
+            <p>Votre site de santé et bien-être</p>
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Accueil</a></li>
-                <li><a href="#shop">Boutique</a></li>
+                <li><a href="#maigrir">Perdre du poids</a></li>
+                <li><a href="#prendre-du-poids">Prendre du poids</a></li>
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="home">
-            <h2>Bienvenue</h2>
-            <p>Découvrez nos produits de santé et nos e-books pour améliorer votre bien-être.</p>
-        </section>
-        <section id="shop">
-            <h2>Boutique</h2>
-            <div class="products">
-                <div class="product">
-                    <h3>E-book : Bien-être au quotidien</h3>
-                    <p>Prix : 15€</p>
-                    <button>Acheter</button>
-                </div>
-                <div class="product">
-                    <h3>Produit de santé : Vitamines</h3>
-                    <p>Prix : 20€</p>
-                    <button>Acheter</button>
-                </div>
+
+    <!-- SECTION: Perdre du poids -->
+    <section id="maigrir">
+        <h2>Perdre du poids</h2>
+        <p>Découvrez nos ebooks et produits pour vous aider à perdre du poids.</p>
+        <div class="products">
+            <div class="product">
+                <img src="ebook-maigrir.jpg" alt="E-book pour maigrir" class="product-img">
+                <h3>E-book : Perdre du poids efficacement</h3>
+                <p>15€</p>
+                <button>Acheter</button>
             </div>
-        </section>
-        <section id="about">
-            <h2>À propos</h2>
-            <p>Nous nous engageons à promouvoir un mode de vie sain et équilibré.</p>
-        </section>
-        <section id="contact">
-            <h2>Contactez-nous</h2>
-            <form>
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
-    </main>
+            <div class="product">
+                <img src="produit-maigrir.jpg" alt="Produit pour maigrir" class="product-img">
+                <h3>Complément alimentaire : Brûleur de graisses</h3>
+                <p>20€</p>
+                <button>Acheter</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Prendre du poids -->
+    <section id="prendre-du-poids">
+        <h2>Prendre du poids</h2>
+        <p>Découvrez nos ebooks et produits pour vous aider à prendre du poids de manière saine.</p>
+        <div class="products">
+            <div class="product">
+                <img src="ebook-prendre-poids.jpg" alt="E-book pour prendre du poids" class="product-img">
+                <h3>E-book : Prendre du poids naturellement</h3>
+                <p>17€</p>
+                <button>Acheter</button>
+            </div>
+            <div class="product">
+                <img src="produit-prendre-poids.jpg" alt="Produit pour prendre du poids" class="product-img">
+                <h3>Complément alimentaire : Prise de masse</h3>
+                <p>25€</p>
+                <button>Acheter</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: À propos -->
+    <section id="about">
+        <h2>À propos de Solusante</h2>
+        <p>Solusante est un site dédié à votre santé et à votre bien-être. Nous vous proposons des produits, ebooks et conseils pour vous aider à atteindre vos objectifs santé.</p>
+    </section>
+
+    <!-- SECTION: Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2025 Santé et Bien-Être</p>
+        <p>&copy; 2025 Solusante - Tous droits réservés</p>
     </footer>
 </body>
+
 </html>
-<header>
-    <img src="votre-image-banniere.jpg" alt="Santé et Bien-être" style="width: 100%; max-height: 300px; object-fit: cover;">
-    <h1>Santé et Bien-Être</h1>
-    <nav>
-        <ul>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#shop">Boutique</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 
